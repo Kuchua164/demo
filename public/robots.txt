@@ -1,0 +1,21 @@
+# Robots.txt cho The UP Train
+# https://theuptrain.edu.vn
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://theuptrain.edu.vn/sitemap.xml
+
+# Disallow admin/private paths
+Disallow: /admin
+Disallow: /api
+Disallow: /.git
+
+# Allow bots to crawl all public pages
+Allow: /gioi-thieu
+Allow: /khoa-hoc
+Allow: /giao-vien
+Allow: /tin-tuc
+Allow: /lien-he
+Allow: /faq
